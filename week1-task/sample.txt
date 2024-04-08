@@ -1,1 +1,1 @@
-
+This is a realtime chat application in which only registered user enable to do chat in general room otherwith only viewing of messages is allowed to unregistered users.
