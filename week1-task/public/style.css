@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: linear-gradient(rgb(81, 76, 76), rgb(26, 24, 24));
+    font-family: 'Roboto', sans-serif;
+}
+.logo{
+    display: block;
+    margin: auto;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    margin-left: 45%;
+
+}
+section.chat__section {
+    background-color: brown;
+    margin-top: 7px;
+    width: 800px;
+    max-width: 90%;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+.brand {
+    padding: 8px;
+    background: #dfd9d9;
+    display: flex;
+    align-items: center;
+}
+.brand h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #1b1818;
+    margin-left: 10px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.message__area{
+    height: 380px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding-top: 40px;
+}
+textarea {
+    width: 100%;
+    border: none;
+    padding: 20px;
+    font-size: 16px;
+    outline: none;
+    background: #FBFBFB;
+}
+
+.message {
+    padding: 15px; 
+    border-radius: 4px; 
+    margin-bottom: 40px;
+    max-width: 300px;
+    position: relative;
+}
+.incoming {
+    background: #e9eafd;
+    color: #101010;  
+}
+.outgoing {
+    background: #778385;
+    color: #101010;
+    margin-left: auto;
+}
+.message h4 {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    color:white;
+    font-size: 14px;
+}
